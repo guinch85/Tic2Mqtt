@@ -1,4 +1,3 @@
-var serialport = require('serialport');
 var events = require('events');
 var util = require('util');
 const serialPort = require("serialport");
