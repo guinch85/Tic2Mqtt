@@ -19,13 +19,13 @@ frameEvents.on('frameDecode', function (data) {
     toolkit.edfLastFrame = data;
 
     let rawADCO = data.ADCO;
-    let rawOPTARIF = data.OPTARIF;
-    let rawISOUSC = data.ISOUSC;
+    // let rawOPTARIF = data.OPTARIF;
+    // let rawISOUSC = data.ISOUSC;
     let rawHCHC = data.HCHC;
     let rawHCHP = data.HCHP;
     let rawPTEC = data.PTEC;
     let rawIINST = data.IINST;
-    let rawIMAX = data.IMAX;
+    // let rawIMAX = data.IMAX;
     let rawPAPP = data.PAPP;
 
     let PTEC = "Heures Pleines";
