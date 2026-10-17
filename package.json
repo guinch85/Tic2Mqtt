@@ -12,7 +12,8 @@
   },
   "dependencies": {
     "serialport": "^9.2.8",
-    "mqtt": "^5.16.1"
+    "mqtt": "^5.16.1",
+    "teleinfo": "^0.2.0"
   },
   "private": true
 }
