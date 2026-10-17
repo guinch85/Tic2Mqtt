@@ -1,0 +1,18 @@
+{
+  "name": "tic2mqtt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/guinch85/Tic2Mqtt.git"
+  },
+  "dependencies": {
+    "serialport": "^9.2.8",
+    "mqtt": "^5.16.1"
+  },
+  "private": true
+}
