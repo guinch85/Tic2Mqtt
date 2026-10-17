@@ -50,7 +50,7 @@ function teleinfo(portCom) {
     return frameEvents;
 }
 
-function decodeLigne(ligneBrute, trame, trameEvents) {
+function decodeLine(ligneBrute, trame, trameEvents) {
     // Ligne du type "PAPP 00290 ," (Etiquette / Donnée / Checksum)
     var elementsLigne = ligneBrute.split(' ');
     if (elementsLigne.length === 3) {
