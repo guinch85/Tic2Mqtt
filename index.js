@@ -46,3 +46,7 @@ frameEvents.on('frameDecode', function (data) {
     clientMqtt.publish(config.mqtt.topic, JSON.stringify(toolkit.edfInfo));
     console.log("*** Data to Mqtt Broker send ***");
 });
+
+frameEvents.on('error', function (err) {
+    console.error(util.inspect(err));
+});
