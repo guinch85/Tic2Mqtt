@@ -1,5 +1,5 @@
 let toolkit = require("./utils/toolkit.js");
-let teleInfo = require("teleinfo");
+let teleInfo = require("./utils/teleinfo.js");
 let mqtt = require('mqtt');
 const util = require("util");
 
