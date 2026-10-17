@@ -11,7 +11,7 @@
     "url": "https://github.com/guinch85/Tic2Mqtt.git"
   },
   "dependencies": {
-    "serialport": "^13.0.0",
+    "serialport": "^10.5.0",
     "mqtt": "^5.16.1"
   },
   "private": true
